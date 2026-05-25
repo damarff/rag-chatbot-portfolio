@@ -11,7 +11,7 @@ Generic AI models (like ChatGPT) hallucinate and do not know your company's prop
 ## Tech Stack 🚀
 - **Frontend**: `Streamlit` for a beautiful, instant, and interactive web application.
 - **Vector Database**: `ChromaDB` for high-performance, local semantic search and embedding storage.
-- **LLM Engine**: `Google Gemini API` (`gemini-2.5-flash` and `text-embedding-004`) for fast inference and semantic vector generation.
+- **LLM Engine**: `Google Gemini API` (`gemini-2.5-flash` and `gemini-embedding-001`) for fast inference and semantic vector generation.
 - **Data Pipeline**: `pdfplumber` for clean and robust document parsing.
 
 ## How to Run 🛠️

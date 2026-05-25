@@ -22,7 +22,7 @@ class RAGSystem:
     def generate_embedding(self, text: str) -> list[float]:
         """Converts text into a vector of numbers (embeddings) using Gemini."""
         response = self.client.models.embed_content(
-            model='text-embedding-004',
+            model='gemini-embedding-001',
             contents=text,
         )
         return response.embeddings[0].values
